@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] - Portfolio</title>
+    <link rel="stylesheet" href="sty1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>susmitha</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h2>Welcome to My Portfolio</h2>
+                <p>I'm a passionate Frontend Developer specializing in creating engaging and dynamic user experiences.</p>
+                <a href="#contact" class="cta">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="C:\\Users\\rehma\\OneDrive\\Pictures\\Saved Pictures\\eee.jpeg" alt="Your Photo" class="profile-pic">
+                <p>Hello! I'm susmitha, a frontend developer with a knack for creating beautiful and functional websites. I specialize in HTML, CSS, and JavaScript, and I’m constantly exploring new technologies to enhance my skills. When I’m not coding, you can find me singing and dancing.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Project 1</h3>
+                        <p>A brief description of the project, technologies used, and the purpose of the project.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Project 2</h3>
+                        <p>A brief description of the project, technologies used, and the purpose of the project.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Project 3</h3>
+                        <p>A brief description of the project, technologies used, and the purpose of the project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Your Name]. All rights reserved. | <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+    <script src="src.js"></script>
+</body>
+</html>
